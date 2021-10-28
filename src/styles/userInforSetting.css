@@ -1,0 +1,49 @@
+.image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 6px #b3b3b3;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  margin-bottom: 20px;
+}
+.infor {
+  display: flex;
+}
+.infor .box-card {
+  width: 360px;
+  min-height: 300px;
+  max-height: 400px;
+  position: relative;
+}
+.infor .box-card .bottom {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+.infor .box-menu {
+  flex: 1;
+  border: #EBEEF5 solid 1px;
+  border-radius: 4px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+  padding: 10px 20px;
+}
+.infor .box-menu .edit-btn-box {
+  float: right;
+}
+.infor .box-menu .el-card {
+  border: 0;
+}
+.infor .box-menu .message-list {
+  clear: both;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+.infor .box-menu .message-list div {
+  width: 40%;
+  line-height: 62px;
+}
